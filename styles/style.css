@@ -1,7 +1,33 @@
+button {
+	margin: 0px 10px;
+	padding : 5px 0px;
+	width : 150px;
+	background-color: #999999;
+	border: 1px solid black;
+	color: white;
+}
+
+h1 {
+	font-size: 30px;
+	text-align: center;
+	padding: 10px;
+}
+
 #container {
 	display: grid;
-	position: absolute;
-	right: 50px;
-	top: 25px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+#menu {
+	padding: 20px;
+	text-align: center;
+}
+
+#pick {
+	margin: 20px 10px;
+	padding : 5px 0px;
+	width : 150px;
+	background-color: #999999;
 	border: 1px solid black;
 }
